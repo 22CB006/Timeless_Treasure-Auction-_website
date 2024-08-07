@@ -1,0 +1,122 @@
+/* General styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Georgia', serif;
+  background-color: #FAF3E0; /* Light beige color */
+  color: #4D4D4D; /* Dark gray color */
+}
+
+.how-to-sell-page {
+  padding: 40px 20px;
+  background-color: #FAF3E0; /* Light beige background */
+}
+
+.how-to-sell-page h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  color: #6A4C42; /* Antique brown color */
+}
+
+.steps-for-selling {
+  margin-bottom: 40px;
+}
+
+.steps-for-selling h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #6A4C42; /* Antique brown color */
+}
+
+.step-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.step {
+  width: calc(33% - 20px);
+  background-color: #FFF5EE; /* Seashell color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.step:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.step img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.step h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #6A4C42; /* Antique brown color */
+}
+
+.step p {
+  font-size: 1em;
+  color: #4D4D4D; /* Dark gray color */
+}
+
+.contact-us {
+  margin-top: 40px;
+}
+
+.contact-us h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #6A4C42; /* Antique brown color */
+}
+
+.contact-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-location {
+  width: calc(33% - 20px);
+  background-color: #FFF5EE; /* Seashell color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.contact-location:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-location h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #6A4C42; /* Antique brown color */
+}
+
+.contact-location p {
+  font-size: 1em;
+  color: #4D4D4D; /* Dark gray color */
+}
+
+@media (max-width: 768px) {
+  .step, .contact-location {
+    width: calc(100% - 20px);
+  }
+}

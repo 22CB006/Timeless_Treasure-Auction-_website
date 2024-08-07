@@ -1,0 +1,89 @@
+.product-card {
+  background-color: #F5F5DC; 
+  border: 1px solid #C19A6B; 
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Georgia', serif;
+}
+
+.product-image {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.product-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #6A4C42;
+  margin: 10px 0;
+}
+
+.product-description {
+  font-size: 0.9em;
+  color: #4D4D4D;
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 1.1em;
+  color: #e74c3c;
+  margin: 10px 0;
+}
+
+.product-category {
+  font-size: 0.9em;
+  color: #95a5a6;
+  margin: 10px 0;
+}
+
+.product-rating {
+  font-size: 0.9em;
+  color: #B692C2;
+  margin: 10px 0;
+}
+
+.add-to-cart-button {
+  padding: 8px 16px;
+  background-color: #3d0c40;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.add-to-cart-button:hover {
+  background-color: #3f2936;
+}
+
+.auction-timer {
+  font-size: 0.9em;
+  color: #e74c3c;
+  margin: 10px 0;
+}
+
+.bid-history {
+  margin: 10px 0;
+}
+
+.bid-history h3 {
+  font-size: 1em;
+  color: #6A4C42;
+  margin: 5px 0;
+}
+
+.bid-history ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bid-history ul li {
+  font-size: 0.9em;
+  color: #4D4D4D;
+  margin: 2px 0;
+}

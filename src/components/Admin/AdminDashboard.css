@@ -1,0 +1,43 @@
+.admin-dashboard {
+    padding: 40px;
+    background-color: #FAF3E0; /* Light cream color */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-dashboard h1 {
+    text-align: center;
+    color: #6A4C42;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .dashboard-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-item h2 {
+    color: #6A4C42;
+  }
+  
+  .dashboard-item button {
+    background-color: #6A4C42;
+    color: #F0EDE5;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .dashboard-item button:hover {
+    background-color: #4A3B2A;
+  }
+  

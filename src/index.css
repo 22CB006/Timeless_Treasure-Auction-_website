@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #FAF3E0; 
+    color: #4D4D4D; 
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  

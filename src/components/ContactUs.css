@@ -1,0 +1,81 @@
+.contact-us-container {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #FAF3E0;
+  font-family: 'Georgia', serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #6A4C42;
+}
+
+.contact-us-container h2 {
+  margin-bottom: 20px;
+  color: #6A4C42;
+}
+
+.contact-us-container p {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+.contact-us-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-us-container form input,
+.contact-us-container form select,
+.contact-us-container form textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Georgia', serif;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+.contact-us-container form input:focus,
+.contact-us-container form select:focus,
+.contact-us-container form textarea:focus {
+  border-color: #6A4C42;
+  outline: none;
+}
+
+.contact-us-container form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.contact-us-container form button {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6A4C42;
+  color: white;
+  cursor: pointer;
+  font-family: 'Georgia', serif;
+  font-size: 1.1em;
+  transition: background-color 0.3s;
+}
+
+.contact-us-container form button:hover {
+  background-color: #C19A6B;
+}
+
+.contact-info {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.contact-info p,
+.contact-info h3 {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.location {
+  margin-top: 20px;
+}

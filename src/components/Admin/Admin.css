@@ -1,0 +1,77 @@
+/* src/components/Admin.css */
+.admin-dashboard, .create-auction {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #FAF3E0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-dashboard h1, .create-auction h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6A4C42;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .dashboard-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-item h2 {
+    color: #6A4C42;
+  }
+  
+  .dashboard-item button {
+    background-color: #6A4C42;
+    color: #F0EDE5;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .dashboard-item button:hover {
+    background-color: #4A3B2A;
+  }
+  
+  .create-auction form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-auction label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .create-auction input, .create-auction textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .create-auction button {
+    padding: 10px;
+    background-color: #6A4C42;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-auction button:hover {
+    background-color: #4A3B2A;
+  }
+  

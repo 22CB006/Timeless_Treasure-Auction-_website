@@ -1,0 +1,142 @@
+.home-page-container {
+    padding: 0;
+  }
+  
+  .home-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://i.etsystatic.com/29488158/r/il/740e4d/3156588127/il_570xN.3156588127_2i5a.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .home-banner-text {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  
+  .home-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .home-banner h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .home-banner p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .home-content {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .auctions-info h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .auctions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .auction-item {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .auction-item h3 {
+    margin: 0 0 10px;
+  }
+  
+  .auction-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .auction-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .newsletter h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .newsletter input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex: 1;
+  }
+  
+  .newsletter button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .newsletter button:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    margin-bottom: 20px;
+  }
+  
+  .footer-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-content ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  

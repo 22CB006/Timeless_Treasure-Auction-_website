@@ -1,0 +1,50 @@
+.toolbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #FAF3E0; /* Match background color */
+    font-family: 'Georgia', serif; /* Match font family */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: 1px solid #C19A6B; /* Match border color with product card */
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: 'Georgia', serif; /* Match font family */
+    background-color: #f5f3ec;
+  }
+  
+  .category-select {
+    padding: 10px 15px;
+    border: 1px solid #C19A6B; /* Match border color with product card */
+    border-radius: 4px;
+    font-family: 'Georgia', serif; /* Match font family */
+    background-color: #FFF8DC;
+    color: #4D4D4D; /* Add text color */
+  }
+  
+  .category-select:hover {
+    background-color: #ecdfbb; /* Hover background color */
+    color: #4D4D4D;
+  }
+  
+  .search-input:focus,
+  .category-select:focus {
+    outline: none;
+    border-color: #fafbf8; /* Focus border color */
+    box-shadow: 0 0 5px rgba(134, 133, 133, 0.5); /* Focus shadow */
+  }
+  
+  .category-select option:hover {
+    background-color: #FFD700; /* Your desired hover color */
+    color: #000; /* Your desired text color */
+  }
+  
