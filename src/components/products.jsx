@@ -30,6 +30,19 @@ const Products = () => {
     <div className="products-container">
       <Header />
       <Toolbar />
+
+      {/* Hero Section with Additional Text */}
+      <div className="hero-section">
+        <h1 className="hero-title">Discover Unique Antiques</h1>
+        <p className="hero-subtitle">
+          Explore our collection of rare and curated items. Each piece tells a story, waiting to be part of yours.
+        </p>
+        <p className="hero-description">
+          From timeless furniture to exquisite jewelry, our antiques are carefully selected to offer you the best of history and craftsmanship. Whether you're looking for a statement piece or a unique gift, our collection has something for every discerning eye.
+        </p>
+      </div>
+
+      {/* Products Grid */}
       <div className="products-grid">
         {filteredProducts.length > 0 ? (
           filteredProducts.map((product) => {

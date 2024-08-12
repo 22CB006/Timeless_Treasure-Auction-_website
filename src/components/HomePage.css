@@ -1,142 +1,416 @@
+/* General Page Styles */
 .home-page-container {
-    padding: 0;
-  }
-  
-  .home-banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url('https://i.etsystatic.com/29488158/r/il/740e4d/3156588127/il_570xN.3156588127_2i5a.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    height: 100vh;
-    position: relative;
-  }
-  
-  .home-banner-text {
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-  }
-  
-  .home-banner::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-  }
-  
-  .home-banner h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-  }
-  
-  .home-banner p {
-    font-size: 1.2em;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .home-content {
-    margin-top: 20px;
-    padding: 20px;
-  }
-  
-  .auctions-info h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-  }
-  
-  .auctions-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .auction-item {
-    background: #f9f9f9;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-  }
-  
-  .auction-item h3 {
-    margin: 0 0 10px;
-  }
-  
-  .auction-item a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .auction-item a:hover {
-    text-decoration: underline;
-  }
-  
-  .newsletter h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-  }
-  
-  .newsletter form {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .newsletter input {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    flex: 1;
-  }
-  
-  .newsletter button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #007bff;
-    color: white;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .newsletter button:hover {
-    background-color: #0056b3;
-  }
-  
-  .footer {
-    background: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .footer-content {
-    margin-bottom: 20px;
-  }
-  
-  .footer-content h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  .footer-content ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-content ul li {
-    margin: 5px 0;
-  }
-  
-  .footer-content p {
-    margin: 0;
-  }
-  
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 0;
+}
+
+/* Banner Styles */
+.home-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('https://r.mobirisesite.com/616549/assets/images/photo-1652598631616-3f5f4d2cfbd5.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  height: 100vh;
+  position: relative;
+}
+
+.home-banner-text {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.home-banner h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.home-banner p {
+  font-size: 1.2em;
+  margin: 0 auto;
+}
+
+/* Content Styles */
+.home-content {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* Newsletter Styles */
+.newsletter {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #4A2F28;
+}
+
+.newsletter p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.newsletter form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.newsletter input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1;
+  max-width: 300px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4A2F28;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+  background-color: #4A2F28;
+}
+
+/* Meet Us Styles */
+.meet-us {
+  margin-top: 40px;
+}
+
+.meet-us h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-member {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+  margin-top: 10px;
+  color: #4A2F28;
+}
+
+.team-member p {
+  color: #555;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+/* Trusted Partners Styles */
+.trusted-partners {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.trusted-partners h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.partners-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.trusted-partners img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.trusted-partners img:hover {
+  transform: scale(1.1);
+}
+
+/* Discover Antiques Styles */
+.discover-antiques {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.discover-antiques h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.video-preview img {
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.video-preview img:hover {
+  transform: scale(1.05);
+}
+
+/* Featured Auctions Styles */
+.featured-auctions {
+  margin-bottom: 40px;
+}
+
+.featured-auctions h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.auction-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.auction-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: calc(33% - 20px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  position: relative;
+}
+
+.auction-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.auction-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.auction-card-content {
+  padding: 20px;
+}
+
+.auction-card-content h3 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+  color: #4A2F28;
+}
+
+.auction-card-content p {
+  color: #555;
+}
+
+.auction-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #4A2F28;
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  transition: color 0.3s ease;
+}
+
+.auction-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* FAQ Styles */
+.faq {
+  margin-top: 40px;
+}
+
+.faq h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.faq-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.faq-item button {
+  background: none;
+  border: none;
+  text-align: left;
+  width: 100%;
+  padding: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #4A2F28;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #555;
+}
+
+.faq-item:hover {
+  background-color: #f1f1f1;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer h2 {
+  font-size: 1.5em;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin: 5px 0;
+  color: #ddd;
+}
+
+.footer-content {
+  margin: 0 20px;
+  flex: 1;
+  text-align: center;
+}
+
+.footer-content p {
+  margin: 0;
+  color: #ccc;
+}
+
+/* FAQ Styles */
+.faq {
+  margin-top: 40px;
+}
+
+.faq h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.faq-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.faq-item button {
+  background: none;
+  border: none;
+  text-align: left;
+  width: 100%;
+  padding: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #4A2F28;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #555;
+  display: none;
+  overflow: hidden;
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+}
+
+.faq-item.active button {
+  color:#4A2F28;
+}
+
+.faq-item:hover {
+  background-color: #f1f1f1;
+}
+
+/* Arrow Icon */
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.faq-item.active .arrow {
+  transform: rotate(180deg);
+}

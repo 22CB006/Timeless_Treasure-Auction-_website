@@ -8,53 +8,31 @@
   background-color: #FAF3E0;
 }
 
-.search-container {
-  display: flex;
-  justify-content: flex-start;
-  margin: 20px 0;
-  width: 100%;
-  padding: 0 20px;
+/* Hero Section Styles */
+.hero-section {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.search-input {
-  flex-grow: 1;
-  padding: 12px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  margin-right: 10px;
-  font-size: 16px;
+.hero-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #6A4C42;
+  margin-bottom: 10px;
 }
 
-.search-button {
-  padding: 12px 20px;
-  background-color: #ecdfbb;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
+.hero-subtitle {
+  font-size: 1.2em;
+  color: #4D4D4D;
+  margin-bottom: 20px;
 }
 
-.search-button:hover {
-  background-color: #a54ecb;
-}
-
-.category-filter {
-  display: flex;
-  align-items: center;
-  margin: 20px 0;
-  width: 100%;
-  padding: 0 20px;
-}
-
-.category-filter label {
-  margin-right: 10px;
-}
-
-.category-filter select {
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+.hero-description {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 30px;
+  max-width: 800px;
+  line-height: 1.6;
 }
 
 .products-grid {
@@ -65,8 +43,8 @@
 }
 
 .no-items-found {
-  font-size: 2em; 
-  font-weight: bold; 
+  font-size: 2em;
+  font-weight: bold;
   color: #6A4C42;
   margin: 20px;
 }

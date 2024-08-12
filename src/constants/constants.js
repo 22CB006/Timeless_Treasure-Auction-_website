@@ -359,7 +359,7 @@ export const auctionData = [
     title: "Premiene Art Auction",
     details: "Mr. Brainwash, 'Balloon Girl' Mixed Media Original, Hand Signed with Certificate of Authenticity.",
     date: "Aug 04, 2024 10:30 PM GMT+5:30",
-     image: "https://example.com/image4.jpg"
+     image: "https://i.pinimg.com/564x/3d/51/25/3d512540f3d92e6a4b98b1167202b01f.jpg"
   },
   {
     title: "Fine Art Auction Online LIVE",
